@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+__pycache__/
+.venv/
+venv/
+
+# Env / secrets — never commit
+.env
+.env.local
+*.db
+*.db-journal
+
+# Builds
+.next/
+out/
+dist/
+build/
+*.log
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
